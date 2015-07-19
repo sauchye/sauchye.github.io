@@ -13,20 +13,20 @@ description: 提交App到App Store的那些事
 公司的开发者账号老大已注册好，So，我只需要配置好证书开发就好！我们使用的是git开发管理代码，虽然GitHub很赞，众所周知：国内访问和操作<a href="https://www.github.com">GitHub</a>都是很慢的，所以我们托管在<a href="https://git.oschina.net/">Git OSChina</a>，在此感谢他们提供的平台。其实git多人开发会出现很多问题，冲突啥的都会有，所以解决冲突也比较费劲，所以我们用<a href="https://github.com/sauchye/FixMergeConflict">FixMergeConflict</a>插件解决冲突，间接提高了开发效率，由于开发需要查看进度，测试BUG等，我们又将App内测发布到<a href="http://fir.im/">fir.im</a>上，方便测试，其实国内App内测还有<a href="http://www.pgyer.com/">蒲公英</a>，只是我习惯了fir，所以就选择了fir，那么问题又来了，每天打包，用Xcode Archive是不是很烦躁，所以你可以选择这个插件<a href="https://github.com/sauchye/DailyPackagedForiOS">DailyPackagedForiOS</a>，从此麻麻再也不用担心我打包烦躁的事啦，哈哈哈~
 
 ##使用到的第三框架
-网络处理:<a href="https://github.com/AFNetworking/AFNetworking">AFNetworking</a></br>
-图片加载:<a href="https://github.com/rs/SDWebImage">SDWebImage</a></br>
-数据库管理:<a href="https://github.com/ccgus/fmdb">fmdb</a></br>
-自动布局:<a href="https://github.com/SnapKit/Masonry">Masonry</a></br>
-数据模型转换:<a href="https://github.com/Mantle/Mantle">Mantle</a></br>
-富文本:<a href="https://github.com/TTTAttributedLabel/TTTAttributedLabel
-">TTTAttributedLabel</a></br>
-视图加载提示框:<a href="https://github.com/jdg/MBProgressHUD
-">MBProgressHUD</a></br>
-图片选择器:<a href="https://github.com/chiunam/CTAssetsPickerController">CTAssetsPickerController</a></br>
-MJ刷新:<a href="https://github.com/CoderMJLee/MJRefresh">MJRefresh</a></br>
-MJ图片加载:<a href="https://github.com/azxfire/MJPhotoBrowser">MJPhotoBrowser</a></br>
-很强大的tabBarController:<a href="https://github.com/robbdimitrov/RDVTabBarController">RDVTabBarController</a></br>
-输入框键盘遮挡:<a href="https://github.com/michaeltyson/TPKeyboardAvoiding">TPKeyboardAvoiding</a></br>
+* 网络处理:<a href="https://github.com/AFNetworking/AFNetworking">AFNetworking</a>
+* 图片加载:<a href="https://github.com/rs/SDWebImage">SDWebImage</a>
+* 数据库管理:<a href="https://github.com/ccgus/fmdb">fmdb</a>
+* 自动布局:<a href="https://github.com/SnapKit/Masonry">Masonry</a>
+* 数据模型转换:<a href="https://github.com/Mantle/Mantle">Mantle</a>
+* 富文本:<a href="https://github.com/TTTAttributedLabel/TTTAttributedLabel
+">TTTAttributedLabel</a> 
+* 视图加载提示框:<a href="https://github.com/jdg/MBProgressHUD
+">MBProgressHUD</a>
+* 图片选择器:<a href="https://github.com/chiunam/CTAssetsPickerController">CTAssetsPickerController</a>
+* MJ刷新:<a href="https://github.com/CoderMJLee/MJRefresh">MJRefresh</a>
+* MJ图片加载:<a href="https://github.com/azxfire/MJPhotoBrowser">MJPhotoBrowser</a>
+* 很强大的tabBarController:<a href="https://github.com/robbdimitrov/RDVTabBarController">RDVTabBarController</a>
+* 输入框键盘遮挡:<a href="https://github.com/michaeltyson/TPKeyboardAvoiding">TPKeyboardAvoiding</a>
 
 以上都是Cocoapods管理第三方类库，如需安装<a href="http://code4app.com/article/cocoapods-install-usage">Cocoapods</a>教程。排名不分先后，感谢他们的开源精神，使得我们有更多的时间去优化我们的App,还有其它暂未列出。同时感谢我之前的老大<a href="http://www.heyuan110.com/">Bruce</a>在他身上让我学到了很多，感谢他的指导，还有我的另一位伙伴<a href="https://github.com/chenrenjie">chenrenjie</a>；同时感谢<a href="https://coding.net/u/coding/p/Coding-iOS/git">Coding-iOS</a>的开源，感觉学到许多，很赞的源代码。
 
