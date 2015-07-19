@@ -39,8 +39,8 @@ timezone:      null
 
 
 #站点基础配置
-title: Sauchye's Blog
-# subTitle: Just record my life
+title: Sauchye
+subTitle: Just record my life
 description: 
 url: http://sauchye.github.io
 feed: /atom.xml
