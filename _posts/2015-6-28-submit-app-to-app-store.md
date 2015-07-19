@@ -2,7 +2,7 @@
 layout: post
 title: Submit App to App Store
 description: 提交App到App Store的那些事
-category: iOS Dev
+category: ios
 ---
 
 ##前言
