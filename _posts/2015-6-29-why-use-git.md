@@ -24,20 +24,8 @@ description: 为什么使用git，使用git没什么原因，因为开源，因�
 ##结语
 以上仅代表个人观点，大神勿喷，不赞同者直接保持自己的习惯就好，或者坚持自己的立场。
 
-注：此博客如没有任何申明，皆属于原创，欢迎转载，转载请注明:<a href="http://sauchye.com/why-use-git/">http://sauchye.com/why-use-git</a>谢谢！
+注：此博客如没有任何申明，皆属于原创，欢迎转载，转载请注明:<a href="http://sauchye.com/opinion/2015/06/29/why-use-git.html/">http://sauchye.com/why-use-githttp://sauchye.com/opinion/2015/06/29/why-use-git.html</a>感激不尽！
 
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = 'sauchye';
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
 
 

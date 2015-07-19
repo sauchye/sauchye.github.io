@@ -1,10 +1,11 @@
 ---
-layout: post
-title: Talk About MX 5 Event
-description: 浅谈MX5发布，我只是一位科技爱好者，喜欢新奇的事，做自己喜欢做的，仅此而已。
-category:igao7
----   
-   
+layout:     post
+title:      Talk About MX 5 Event
+category: opinion
+description: 谈谈MX5发布
+---
+
+
 ##前言
 写的不好，欢迎拍砖，我只是一位科技爱好者，喜欢新奇的事；PS：我不是职业写手，我只是曾经“搞机”过，它带来的欢乐是iPhone无法取代的。
 
@@ -25,6 +26,6 @@ category:igao7
 ##结语
 MX5 1799良心价，不解释，期待国人做的更好，写的不好，欢迎拍砖。
 
-注：此博客如没有任何申明，皆属于原创，欢迎转载，转载请注明:<a href="http://sauchye.com/talk-about-MX-5-event/">http://sauchye.com/talk-about-MX-5-event/</a>不胜感激。
+注：此博客如没有任何申明，皆属于原创，欢迎转载，转载请注明:<a href="http://sauchye.com/2015/07/01/talk-about-MX-5-event.html/">http://sauchye.com/2015/07/01/talk-about-MX-5-event.html</a>不胜感激。
 
 
