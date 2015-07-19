@@ -49,9 +49,9 @@ feed: /atom.xml
 nav:
   - text: Home
     url: /index.html
-  - text: Archives
-    url: /archives.html
-    - text: About
+  # - text: Archives
+  #   url: /archives.html
+  - text: About
     url: /about.html
 
 
