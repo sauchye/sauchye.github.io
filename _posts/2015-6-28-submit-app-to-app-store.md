@@ -2,7 +2,6 @@
 layout: post
 title: Submit App to App Store
 description: 提交App到App Store的那些事
-category: ios
 ---
 
 ##前言
@@ -67,6 +66,6 @@ MJ图片加载:<a href="https://github.com/azxfire/MJPhotoBrowser">MJPhotoBrowse
 ##结语
 希望以上被拒对准备上架App的童鞋有所帮助，在此感谢他们的开源精神，感谢共患难的队友，感谢！
 
-注：此博客如没有任何申明，皆属于原创，欢迎转载，转载请注明:<a href="http://sauchye.com/submit-app-to-app-store/">http://sauchye.com/submit-app-to-app-store</a>不胜感激。
+注：此博客如没有任何申明，皆属于原创，欢迎转载，转载请注明:<a href="http://sauchye.com/2015/06/28/submit-app-to-app-store.html">http://sauchye.com/2015/06/28/submit-app-to-app-store.html</a>不胜感激。
 
 
