@@ -40,7 +40,7 @@ timezone:      null
 
 #站点基础配置
 title: Sauchye's Blog
-subTitle: Just record my develope iOS and life
+subTitle: Just record my life
 description: 
 url: http://sauchye.github.io
 feed: /atom.xml
@@ -67,22 +67,17 @@ headimg:
 
 #关注我
 follow:
-  - class: fa-google-plus
-    url: http://www.zhanxin.info
-  - class: fa-facebook
-    url: http://www.zhanxin.info
+ 
   - class: fa-github
-    url: http://github.com/pizn
+    url: http://github.com/sauchye
   - class: fa-weibo
-    url: http://weibo.com/pizner
-  - class: fa-renren
-    url: http://www.zhanxin.info
-  - class: fa-pinterest
-    url: http://www.zhanxin.info
+    url: http://weibo.com/315526661
+  - class: fa-500px
+    url: http://500px.com/sauchye
   - class: fa-twitter
-    url: http://www.zhanxin.info
+    url: http://twitter.com/sauchye
   - class: fa-rss
-    url: http://www.zhanxin.info
+    url: http://sauchye.com
 
 #作者信息
 # author:
