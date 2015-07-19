@@ -5,7 +5,7 @@ description: 解决Xcode出现多个模拟器的问题
 ---
 ##前言
 自从Apple向开发者开放Xcode 7 Beta版本时，我就下载了Xcode 7 Beta，安装Xcode 6.4和 Xcode 7 Beta 2个Xcode版本，但是最近出现以下问题截图：
-![muti simulators](http://sauchye.com/images/xcode_tips/multi_simulators.png)
+![muti simulators](http://sauchye.com/images/dev/multi_simulators.png)
 看到如上截图，说实话每次调试程序时也是dt，强迫症患者，估计更加难受。昨天在微博上看到，阳神<a href="http://weibo.com/p/1005051364395395/home?from=page_100505&mod=TAB#place">我就叫Sunny怎么了</a>微博，解决此问题，2句命令即可，亲测有效。
 
 ####首先退出Xcode并且关闭模拟器：
@@ -17,7 +17,7 @@ description: 解决Xcode出现多个模拟器的问题
 2. **rm -rf ~/Library/Developer/CoreSimulator/Devices**
 
 ####最后重启Xcode，还你清爽的模拟器列表
-![clear simulators](http://sauchye.com/images/xcode_tips/clear.png)
+![clear simulators](http://sauchye.com/images/dev/clear.png)
 
 
 
