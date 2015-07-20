@@ -20,11 +20,8 @@ description: 解决Xcode出现多个模拟器的问题
 ![clear simulators](http://sauchye.com/images/dev/clear.png)
 
 
+*注：此博客如没有任何申明，皆属于原创，欢迎转载，转载请注明，不胜感激！*
 
-
-##结语
-
-注：此博客如没有任何申明，皆属于原创，欢迎转载，转载请注明:<a href="http://sauchye.com/2015/07/17/fix-xcode-multiple-simulators.html">http://sauchye.com/2015/07/17/fix-xcode-multiple-simulators.html</a>不胜感激。
 
 
 

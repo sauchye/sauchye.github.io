@@ -15,7 +15,7 @@ description: 提交App到App Store的那些事
 ##使用到的第三框架
 * 网络处理:<a href="https://github.com/AFNetworking/AFNetworking">AFNetworking</a>
 * 图片加载:<a href="https://github.com/rs/SDWebImage">SDWebImage</a>
-* 数据库管理:<a href="https://github.com/ccgus/fmdb">fmdb</a>
+* 数据持久化:<a href="https://github.com/ccgus/fmdb">fmdb</a>
 * 自动布局:<a href="https://github.com/SnapKit/Masonry">Masonry</a>
 * 数据模型转换:<a href="https://github.com/Mantle/Mantle">Mantle</a>
 * 富文本:<a href="https://github.com/TTTAttributedLabel/TTTAttributedLabel
@@ -64,8 +64,8 @@ description: 提交App到App Store的那些事
 被无情的拒绝后，丧心肠断剑，过儿的黯然销魂掌，伤心太平洋...此时感觉有点无力了，呵呵呵呵~再怎么无力也要发布App啊，我特么怀疑Apple审核人员用模拟器测试App，再想想根据我们登录时的字段加入了DeviceToken所以没有Token是登录不了的，但是再想想有时候会获取不到Token，此时自己又狠狠的呵呵了一把自己，既然出问题了，那就改改改，改完再提交。经过大概9天App出现在App Store了，无比激动了。
 
 ##结语
-希望以上被拒对准备上架App的童鞋有所帮助，在此感谢他们的开源精神，感谢共患难的队友，感谢！
+希望以上被拒对准备上架App的童鞋有所帮助，在此感谢他们的开源精神，祝大家玩的开心！
 
-注：此博客如没有任何申明，皆属于原创，欢迎转载，转载请注明:<a href="http://sauchye.com/2015/06/28/submit-app-to-app-store.html">http://sauchye.com/2015/06/28/submit-app-to-app-store.html</a>不胜感激。
+*注：此博客如没有任何申明，皆属于原创，欢迎转载，转载请注明，不胜感激！*
 
 
