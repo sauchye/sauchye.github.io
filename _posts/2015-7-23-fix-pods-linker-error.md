@@ -12,6 +12,7 @@ error:*Apple Mach-O Linker Error "_OBJC_CLASS_$_MASConstraint",referenced from:*
 
 
 纠结了好久，毕竟项目工程引入了不少pods类库。于是到处询问，搜索得知。
+
 1.首先：先进入Pods->Architectures->Build Active Architecture Only将其全部设置成**NO**
 
 ![Pods linker_error](http://sauchye.com/images/dev/pod_modify.png)
