@@ -52,7 +52,7 @@ nav:
   - text: Archives
     url: /archives.html
   - text: About
-    url: about.html
+    url: /about.html
 
 
 #theme config
