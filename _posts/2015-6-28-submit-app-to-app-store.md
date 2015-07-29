@@ -16,7 +16,7 @@ description: 提交App到App Store的那些事
 * 网络处理:<a href="https://github.com/AFNetworking/AFNetworking">AFNetworking</a>
 * 图片加载:<a href="https://github.com/rs/SDWebImage">SDWebImage</a>
 * 数据持久化:<a href="https://github.com/ccgus/fmdb">fmdb</a>
-* 自动布局:<a href="https://github.com/SnapKit/Masonry">Masonry</a>
+* 自动布局:<a href="https://github.com/SnapKit/Masonry">Masonry</a> 
 * 数据模型转换:<a href="https://github.com/Mantle/Mantle">Mantle</a>
 * 富文本:<a href="https://github.com/TTTAttributedLabel/TTTAttributedLabel
 ">TTTAttributedLabel</a> 
@@ -27,6 +27,8 @@ description: 提交App到App Store的那些事
 * MJ图片加载:<a href="https://github.com/azxfire/MJPhotoBrowser">MJPhotoBrowser</a>
 * 很强大的tabBarController:<a href="https://github.com/robbdimitrov/RDVTabBarController">RDVTabBarController</a>
 * 输入框键盘遮挡:<a href="https://github.com/michaeltyson/TPKeyboardAvoiding">TPKeyboardAvoiding</a>
+* 键盘表情:<a href="https://github.com/ayushgoel/AGEmojiKeyboard">AGEmojiKeyboard</a>
+
 
 以上都是Cocoapods管理第三方类库，如需安装<a href="http://code4app.com/article/cocoapods-install-usage">Cocoapods</a>教程。排名不分先后，感谢他们的开源精神，使得我们有更多的时间去优化我们的App,还有其它暂未列出。同时感谢我之前的老大<a href="http://www.heyuan110.com/">Bruce</a>在他身上让我学到了很多，感谢他的指导，还有我的另一位伙伴<a href="https://github.com/chenrenjie">chenrenjie</a>；同时感谢<a href="https://coding.net/u/coding/p/Coding-iOS/git">Coding-iOS</a>的开源，感觉学到许多，很赞的源代码。
 
@@ -37,7 +39,7 @@ description: 提交App到App Store的那些事
 采用<a href="http://mob.com">mob</a>（原ShareSdk）短信验证。
 
 ##第三方社交与社交分享
-采用<a href="http://www.umeng.com/">友盟</a>的第三方授权登录：腾讯QQ，微信，微博以及分享，自我感觉友盟的技术客服妹纸服务态度很赞哦！
+采用<a href="http://www.umeng.com/">友盟</a>的第三方授权登录：腾讯QQ，微信，微博以及分享，自我感觉友盟的技术客服妹纸服务态度很赞哦！第二版本，集成友盟统计分析。
 
 ##Crashlytics BUG追踪神器
 使用Crashlytics bug追踪，不懂的童鞋可以参看<a href="http://www.devtang.com/blog/2013/07/24/use-crashlytics/">巧哥博客介绍Crashlytics</a>，Crashlytics太强大了，让你的BUG无处存在，你的项目集成了他，可以定位到哪一行Crash，接下来就看你的了。
@@ -48,7 +50,7 @@ description: 提交App到App Store的那些事
 终于到了可以Release App发布到App Store，此时无比开森，有木有。毕竟可以不再那么的赶进度，那些日子确实是煎熬，但是现在看来一切都是值得的。但是我们发布到App Store时需要注意很多，毕竟Apple的审核是相当严的，一不小心就被reject了，这种感觉真差劲，其实被拒也木有那么好纠结的，只要弄清问题所在更改就好。我们App被reject2次，幸运的是第三次审核通过，刚好今早在App Store搜索，奇迹般App出现在App Store上，内心无比激动，其实预计这2天会出结果，说实话每天凌晨和早上都会第一时间在App Store搜索我们的App。
 
 ##第一次被拒
-等待漫长的2周，最后老大收到Review的邮件截图给我，当时我还在琢磨Review，有道一查，才明白App可能被reject了，那时候老大不知道权当App开始审核了，上<a href="https://itunesconnect.apple.com">itunesconnect.apple.com</a>，果真被拒了，如需要App加急审核<a href="https://developer.apple.com/contact/app-store/?topic=expedite">戳</a>。
+等待漫长的2周，最后老大收到Review的邮件截图给我，当时我还在琢磨Review，有道一查，才明白App可能被reject了，那时候老大不知道权当App开始审核了，上<a href="https://itunesconnect.apple.com">itunesconnect.apple.com</a>，果真被拒了，如需要App加急审核，申诉<a href="https://developer.apple.com/contact/app-store/?topic=expedite">戳</a>。
 
 >"Multitasking Apps may only use background services for their intended purposes: VoIP, audio playback, location, task completion, local notifications, etc"   
 </br>
