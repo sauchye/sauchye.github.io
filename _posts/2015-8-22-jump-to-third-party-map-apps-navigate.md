@@ -20,22 +20,30 @@ description: 看似如此简单的需求，有可能会被大脸~
   思路大概是这样，首先检测iOS设备是否安装了该应用，需要知道对应应用的urlScheme，如检测高德和百度地图是否被安装到iOS设备上：
   
   ​
-  		- (NSArray *)checkInstallMapApps{
+  
+  ​
+  
+  ``` objective-c
+  - (NSArray *)checkInstallMapApps{
   
     	NSArray *mapSchemeArr = @[@"iosamap://navi",@"baidumap://map/"];
   
     	NSMutableArray *appListArr = [[NSMutableArray alloc] initWithObjects:@"苹果地图", nil];
+  
     	for (int i = 0; i < [mapSchemeArr count]; i++) {  
-  			if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@",[mapSchemeArr objectAtIndex:i]]]]) {
-    		    if (i == 0){
-        		    [appListArr addObject:@"高德地图"];
-      	  }else if (i == 1){
-        	    [appListArr addObject:@"百度地图"];
-        	}
-    	} 
+  		if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@",[mapSchemeArr objectAtIndex:i]]]]) {
+    		 if (i == 0){
+  	[appListArr addObject:@"高德地图"];
+  	  }else if (i == 1){
+    	    [appListArr addObject:@"百度地图"];
+    		}
+        }
     	}
-    		return appListArr;
-  		}
+    	return appListArr;
+   }
+  ```
+  
+    
   
   ​
 
@@ -49,22 +57,20 @@ description: 看似如此简单的需求，有可能会被大脸~
   
   ​
   
-  		- (CLLocationCoordinate2D)transformCoordinatesLatitude:(double)latitude longitude:(double)longitude{
+  ​
   
-  		  double x = longitude - 0.0065, y = latitude - 0.006;
-  
- 		  double z = sqrt(x * x + y * y) - 0.00002 * sin(y * M_PI);
-  
-          double theta = atan2(y, x) - 0.000003 * cos(x * M_PI);
-  
-    	  double gg_lng = z * cos(theta);
-  
-    	  double gg_lat = z * sin(theta);
-  
-    	  CLLocationCoordinate2D coor = CLLocationCoordinate2DMake(gg_lat, gg_lng);
-  
- 		  return coor;
-  		}
+  ``` objective-c
+  - (CLLocationCoordinate2D)transformCoordinatesLatitude:(double)latitude longitude:(double)longitude{
+      double x = longitude - 0.0065, y = latitude - 0.006;
+      double z = sqrt(x * x + y * y) - 0.00002 * sin(y * M_PI);
+      double theta = atan2(y, x) - 0.000003 * cos(x * M_PI);
+      double gg_lng = z * cos(theta);
+      double gg_lat = z * sin(theta);
+      CLLocationCoordinate2D coor = CLLocationCoordinate2DMake(gg_lat, gg_lng);
+      return coor;
+  	}
+  }
+  ```
   
   ​
   
