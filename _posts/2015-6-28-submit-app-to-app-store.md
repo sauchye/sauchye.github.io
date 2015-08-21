@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Submit App to App Store
+title: 我的上架辛酸史
 description: 提交App到App Store的那些事
 ---
 
