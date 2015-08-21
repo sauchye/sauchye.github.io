@@ -18,68 +18,50 @@ description: 看似如此简单的需求，有可能会被大脸~
 - #### 自动检测是否安装某应用：
   
   思路大概是这样，首先检测iOS设备是否安装了该应用，需要知道对应应用的urlScheme，如检测高德和百度地图是否被安装到iOS设备上：
-  
-  ​
-  
-  ​
-  
-  ``` objective-c
-  - (NSArray *)checkInstallMapApps{
-  
-    	NSArray *mapSchemeArr = @[@"iosamap://navi",@"baidumap://map/"];
-  
-    	NSMutableArray *appListArr = [[NSMutableArray alloc] initWithObjects:@"苹果地图", nil];
-  
-    	for (int i = 0; i < [mapSchemeArr count]; i++) {  
-  		if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@",[mapSchemeArr objectAtIndex:i]]]]) {
-    		 if (i == 0){
-  	[appListArr addObject:@"高德地图"];
-  	  }else if (i == 1){
-    	    [appListArr addObject:@"百度地图"];
+
+   	 
+
+``` 
+- (NSArray *)checkInstallMapApps{
+ 	NSArray *mapSchemeArr = @[@"iosamap://navi",@"baidumap://map/"];
+	NSMutableArray *appListArr = [[NSMutableArray alloc] initWithObjects:@"苹果地图", nil];
+	for (int i = 0; i < [mapSchemeArr count]; i++) {
+    	if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@",[mapSchemeArr objectAtIndex:i]]]]) {
+        	if (i == 0){
+            	[appListArr addObject:@"高德地图"];
+        	}else if (i == 1){
+            	[appListArr addObject:@"百度地图"];
+        		}
     		}
-        }
-    	}
-    	return appListArr;
-   }
-  ```
-  
-    
-  
-  ​
-
-
+		}
+		return appListArr;
+      }
+```
 
 这样就获取到了你的设备安装的地图应用，so easy吧，就是这样。我们应用是支持iOS7+，接下来自定义弹出的视图就好。
 
 - #### 还有一个就是导航到终点的位置偏差很大
   
   导航到终点的位置偏差很大，这是一个比较dt的事，我们采用的是百度地图SDK，所以只需要这会误导用户。发现在苹果地图，高德地图，百度地图，导航到指定终点，偏差相同，于是第一时间检查，传参，发现传参没有问题，于是开始了抓狂的Search，得知在传参经纬度时需要将经纬度转换下，于是找到修改得到这样一份代码，导航位置貌似立刻变得精准了，俗称是**火星转码**，看传参应该很容易，所以传转码后的参数应该就好了，如果位置还是很偏，请舍弃这段代码，提issues到地图SDK，或者您有更好的方法，如果您也热爱分享，希望您能告诉我，或者直接<a href="https://github.com/sauchye/DemoNavigationURI/pulls">pull request</a>，感激不尽。
-  
-  ​
-  
-  ​
-  
-  ``` objective-c
-  - (CLLocationCoordinate2D)transformCoordinatesLatitude:(double)latitude longitude:(double)longitude{
-      double x = longitude - 0.0065, y = latitude - 0.006;
-      double z = sqrt(x * x + y * y) - 0.00002 * sin(y * M_PI);
-      double theta = atan2(y, x) - 0.000003 * cos(x * M_PI);
-      double gg_lng = z * cos(theta);
-      double gg_lat = z * sin(theta);
-      CLLocationCoordinate2D coor = CLLocationCoordinate2DMake(gg_lat, gg_lng);
-      return coor;
-  	}
+
+
+
+``` 
+- (CLLocationCoordinate2D)transformCoordinatesLatitude:(double)latitude 												       longitude:(double)longitude{  
+  double x = longitude - 0.0065, y = latitude - 0.006;
+  double z = sqrt(x * x + y * y) - 0.00002 * sin(y * M_PI);
+  double theta = atan2(y, x) - 0.000003 * cos(x * M_PI);
+  double gg_lng = z * cos(theta);
+  double gg_lat = z * sin(theta);
+  CLLocationCoordinate2D coor = CLLocationCoordinate2DMake(gg_lat, gg_lng);
+  return coor;
   }
-  ```
-  
-  ​
-  
-  ​
-  
-  ​
-  
+```
+
+  		
+
   检测是否安装某应用以及导航位置偏差较大，放出呆萌(Demo)，有兴趣的童鞋看看:<a href="https://github.com/sauchye/DemoNavigationURI">基于DemoNavigationURI</a>
-  
+
   最后，注意iOS9在urlScheme添加了白名单限制，所以在你的应用plist下一定添加这些urlScheme在如下截图位置，否则无法检测已安装的应用。
 
 plist->LSApplicationQueriesSchemes
