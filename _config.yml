@@ -21,8 +21,9 @@ future:       true
 unpublished:  false
 
 # Conversion
-markdown:     rdiscount
-highlighter:  pygments
+markdown:     kramdown
+pygments:     true
+# highlighter:  pygments
 lsi:          false
 excerpt_separator: "\n\n"
 
@@ -77,10 +78,6 @@ follow:
   - class: fa-rss
     url: http://sauchye.com/atom.xml
 
-#作者信息
-# author:
-#   link: http://www.zhanxin.info/contact.html
-#   img: http://tp2.sinaimg.cn/1832671293/180/40020872447/1
 
 #评论信息
 disqus:
