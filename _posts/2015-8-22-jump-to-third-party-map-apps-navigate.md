@@ -45,7 +45,9 @@ description: 看似如此简单的需求，有可能会被大脸~
 
 
 ``` objective-c
-- (CLLocationCoordinate2D)transformCoordinatesLatitude:(double)latitude 														longitude:(double)longitude{  
+- (CLLocationCoordinate2D)transformCoordinatesLatitude:(double)latitude 
+  											 longitude:(double)longitude{  
+                                               
   double x = longitude - 0.0065, y = latitude - 0.006;
   double z = sqrt(x * x + y * y) - 0.00002 * sin(y * M_PI);
   double theta = atan2(y, x) - 0.000003 * cos(x * M_PI);

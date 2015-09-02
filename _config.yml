@@ -21,8 +21,9 @@ future:       true
 unpublished:  false
 
 # Conversion
-markdown:     kramdown
-pygments:     true
+# markdown:     kramdown
+markdown:     redcarpet
+pygments:     true redcarpet
 # highlighter:  pygments
 lsi:          false
 excerpt_separator: "\n\n"
