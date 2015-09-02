@@ -21,9 +21,10 @@ future:       true
 unpublished:  false
 
 # Conversion
-markdown:     kramdown
+markdown:     rdiscount
 pygments:     true
 # highlighter:  pygments
+# markdown:     kramdown
 lsi:          false
 excerpt_separator: "\n\n"
 
