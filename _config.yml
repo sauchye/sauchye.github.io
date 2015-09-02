@@ -75,7 +75,7 @@ follow:
   - class: fa-twitter
     url: http://twitter.com/sauchye
   - class: fa-rss
-    url: http://sauchye.com
+    url: http://sauchye.com/atom.xml
 
 #作者信息
 # author:
