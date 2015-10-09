@@ -1,3 +1,9 @@
+---
+layout: post
+title: 快速入手RDVTabBarController
+description: 快速入手RDVTabBarController，让你爽到停不下来。
+---
+
 ### RDVTabBarController
 
 - RDVTabBarController：一个十分完善的tabBarController，可以自定义角标个数，爽的停不下来。
@@ -142,3 +148,6 @@ RDVTabBarController Example Usage其实已经很详细了，接下来看初始�
 
 - 相比传统第三方，你会发现可以很好的定制角标，这是极好的，当然你也可以自定义；
 - 但是不能定义中间凸起的tabBar，好早之前去哪儿就是中间凸起一个tabBar，不过现在去哪儿也改成传统的tabBar了；​
+
+*注：此博客如没有任何申明，皆属于原创，欢迎转载，转载请注明，不胜感激！*
+
