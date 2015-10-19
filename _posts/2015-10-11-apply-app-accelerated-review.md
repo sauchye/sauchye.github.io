@@ -2,7 +2,7 @@
 layout: post
 title: AppStore申请加速审核那些事
 category: devtips
-description: 人无完人，有时难免会出现一些问题，所以需要快速上架自己的app
+description: App有时难免会出现一些问题，所以需要快速上架自己的App
 ---
 
 ## 前言

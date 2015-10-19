@@ -42,7 +42,7 @@ timezone:      null
 
 #站点基础配置
 # title: Sauchye's Blog
-subTitle: Sauchye's Blog | Just practical share
+subTitle: Sauchye's Blog | 有态度的技术分享
 description: 
 url: http://sauchye.github.io
 feed: /atom.xml
