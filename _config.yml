@@ -82,9 +82,9 @@ follow:
 
 #评论信息
 disqus:
-  config: false
+  config: true
   id: sauchye
 
 duoshuo:
-  config: true
+  config: false
   id: isau
