@@ -2,7 +2,7 @@
 layout: post
 title: 百公里徒步旅行
 category: life
-description: 百公里徒步旅行，挑战不一样的自己。
+description: 百公里徒步旅行，遇见不一样的自己。
 ---
 
 
