@@ -28,6 +28,3 @@ error:*Apple Mach-O Linker Error "_OBJC_CLASS_$_MASConstraint",referenced from:*
 参考：<a href="http://blog.csdn.net/sunyazhou13/article/details/10070063">http://blog.csdn.net/sunyazhou13/article/details/10070063</a>
 
 
-
-*注：此博客如没有任何申明，皆属于原创，欢迎转载，转载请注明，不胜感激！*
-
