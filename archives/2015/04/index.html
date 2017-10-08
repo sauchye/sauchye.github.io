@@ -30,13 +30,11 @@
 
 
 
-  <title> Sauchye's Blog </title>
+  <title> Archive // Sauchye's Blog </title>
 </head>
 
 <body>
-  <div class="container one-column 
-   page-home 
-">
+  <div class="container one-column  page-archive ">
     <div class="headband"></div>
 
     <div id="header" class="header">
@@ -106,73 +104,60 @@
       <div class="main-inner">
         <div id="content" class="content">
           
-  <div id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-collapse">
+    <span class="archive-move-on"></span>
+
+    <span class="archive-page-counter">
+      
+      
+       
+      
+      Um..! 1 post. Keep on posting.
+    </span>
+
     
+
+      
+      
       
 
-  <div class="post post-type-normal ">
+      
+        
+        <div class="collection-title">
+          <h2 class="archive-year motion-element" id="archive-year-2015">2015</h2>
+        </div>
+      
+      
+
+      
+
+  <div class="post post-type-normal">
     <div class="post-header">
 
-      
-      
-        <h1 class="post-title">
-          
-          
-            
-              <a class="post-title-link" href="/2015/04/12/hello-world/">
-                Hello World
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          发表于 2015-04-12
-        </span>
-
-<!--             <span class="post-category">
-            &nbsp; | &nbsp; 分类于
-            
-              <a href="/categories/blog/">blog</a>
-          </span> -->
-
+      <div class="post-title">
         
-
-        
-          
+            <a class="post-title-link" href="/2015/04/12/hello-world/">
+              Hello World
+            </a>
         
       </div>
-    </div>
 
-    <div class="post-body">
+      <div class="post-meta">
+        <span class="post-time"> 04-12 </span>
+      </div>
 
-    
-        
-          <p>Welcome to my blog !  </p>
-
-        
-      
-    </div>
-
-    <div class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
     </div>
   </div>
 
 
+
     
+
   </div>
 
   
+
 
         </div>
       </div>
@@ -196,7 +181,7 @@
         <div class="site-author motion-element">
           <img class="site-author-image" src="/images/sauchye.png" alt="Sauchye" />
           <p class="site-author-slogan">Sauchye</p>
-          <p class="site-author-slogan">向往美好的是~</p>
+          <p class="site-author-slogan">向往美好的事</p>
         </div>
         <p class="site-description motion-element"></p>
         <div class="site-state motion-element">
@@ -249,7 +234,6 @@
               <span class="links-of-author-item">
               <a href="https://twitter.com/sauchye" target="_blank">Twitter</a>
             </span>
-          
         </div>
 
                     <!--署名-->
@@ -270,7 +254,13 @@
               <a href="http://blog.deartanker.com" target="_blank">Deartanker's Blog</a>
             
           </div>
+
+        
+        
+
       </div>
+
+      
 
     </div>
   </div>
@@ -313,6 +303,12 @@
 
   
   
+  
+    <script type="text/javascript">
+      postMotionOptions = {stagger: 100, drag: true};
+    </script>
+  
+
 
   
   <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
@@ -501,6 +497,12 @@
 
 
   
+  
+    <script type="text/javascript" id="motion.page.archive">
+      $('.archive-year').velocity('transition.slideLeftIn');
+    </script>
+  
+
 
   
 <script type="text/x-mathjax-config">
@@ -526,13 +528,6 @@
 
 
   
-  
-  
-
-  
-
-
-
 
   
 </body>

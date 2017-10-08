@@ -1,3 +1,10 @@
-## sauchye.github.com
+# isau.github.io
+isau.github.io
 
-本站是<a href="http:sauchye.com">sauchye</a>的窝，自豪的采用 <a href="http://www.zhanxin.info" target="_blank" title="掌心">zhanxin.info</a>模板，感谢作者的开源精神，此处保留作者的版权信息，在此申明。 
+##本站<a href="http://isau.github.io/">isau</a>
+
+感谢<a href="https://github.com/iissnan/hexo-theme-next">iissnan</a>开源主题，很赞；
+
+在<a href="https://github.com/laughinging/laughinging.github.io">Laughinging</a>基础上做出调整，在此声明应该不算盗取神马的~
+
+欢迎clone，fork，star等等~
