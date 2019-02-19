@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AppStore申请加速审核那些事
-categories: Xcode
+categories: app
 description: AppStore申请加速审核那些事
 keywords: app
 ---
