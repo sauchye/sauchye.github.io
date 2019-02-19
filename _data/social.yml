@@ -1,6 +1,3 @@
-- sitename: GitHub
-  name: sauchye
-  url: https://github.com/sauchye
 
 - sitename: 微博
   name: sauchye
@@ -13,10 +10,6 @@
 - sitename: 知乎
   name: sauchye
   url: http://www.zhihu.com/people/sauchye
-
-- sitename: 豆瓣
-  name: sauchye
-  url: http://www.douban.com/people/sauchye
 
 - sitename: 500px
   name: sauchye
