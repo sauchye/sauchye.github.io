@@ -1,3 +1,4 @@
-# sauchye.github.io
+# Sauchye's Blog
 
-Thanks <a href="https://github.com/iissnan/hexo-theme-next">iissnan</a> great open !
+thank you [mzlogin](https://github.com/mzlogin/mzlogin.github.io)
+
