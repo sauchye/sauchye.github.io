@@ -5,7 +5,7 @@ baseurl:
 url: https://sauchye.github.io/
 date_format: "ordinal"
 title: sauchye
-subtitle: "探索、求知"
+subtitle: "求知、探索"
 description: "Sauchye's Blog"
 keywords: sauchye
 timezone: Asia/Shanghai
@@ -96,14 +96,14 @@ disqus:
 # https://imsun.net/posts/gitment-introduction/
 gitment:
     owner: sauchye
-    repo: sauchye-blog
+    repo: blog-comments
     oauth:
         client_id: 78dbc659f1b91b8a795b
         client_secret: 61e88f9f2a6a19bd7670983924cccb290311f115
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: sauchye
-    repo: sauchye-blog
+    repo: blog-comments
     clientID: 78dbc659f1b91b8a795b
     clientSecret: 61e88f9f2a6a19bd7670983924cccb290311f115
 # 在使用其它评论组件时可点击显示 Disqus

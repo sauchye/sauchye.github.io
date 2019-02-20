@@ -3,18 +3,18 @@
   name: sauchye
   url: http://weibo.com/315526661
 
-- sitename: Twitter
-  name: sauchye
-  url: https://twitter.com/sauchye
-
 - sitename: 知乎
   name: sauchye
   url: http://www.zhihu.com/people/sauchye
+
+- sitename: Twitter
+  name: sauchye
+  url: https://twitter.com/sauchye
 
 - sitename: 500px
   name: sauchye
   url: https://500px.com/sauchye
 
 
-- sitename: email
+- sitename: Email
   name: sauchye#qq.com

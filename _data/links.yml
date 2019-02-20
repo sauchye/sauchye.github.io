@@ -1,16 +1,24 @@
 
+- name: 唐巧的博客
+   url: http://blog.devtang.com/
+
+- name: 喵神得博客
+   url: https://onevcat.com/
+
+- name: 霜神得博客
+   url: https://halfrost.com/
+
+- name: 玉令天下的博客
+   url: http://yulingtianxia.com/
+
+- name: Casatwy's Blog
+   url: https://casatwy.com/
 
 - name: Bruce's Blog
-  url: http://www.heyuan110.com/
+   url: http://www.heyuan110.com/
 
-- name: 唐巧的博客
-  url: http://blog.devtang.com/
-
-- name: 喵神
-  url: https://onevcat.com/#blog
-
-- name: 霜神
-  url: https://halfrost.com/
+- name: DearTanker's Blog
+   url: https://blog.deartanker.com/
 
 - name: 码志
-  url: http://mazhuang.org
+   url: http://mazhuang.org
