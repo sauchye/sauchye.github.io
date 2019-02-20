@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AppStore申请加速审核那些事
-categories: app
+categories: app-review
 description: 如何向Apple申请加速审核自己的App
 keywords: app
 ---

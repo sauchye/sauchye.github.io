@@ -2,10 +2,16 @@
 - name: 唐巧的博客
    url: http://blog.devtang.com/
 
-- name: 喵神得博客
+- name: 喵神的博客
    url: https://onevcat.com/
 
-- name: 霜神得博客
+- name: YY大神
+   url: https://blog.ibireme.com/
+
+- name: sunnyxx的博客
+   url: http://blog.sunnyxx.com/
+
+- name: 霜神的博客
    url: https://halfrost.com/
 
 - name: 玉令天下的博客

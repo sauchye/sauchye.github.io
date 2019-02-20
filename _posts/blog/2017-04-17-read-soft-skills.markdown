@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 读软技能心得体会
-categories: read-soft-skills
+categories: read
 description: 唯有读书和代码不可辜负
 keywords: read-soft-skills
 ---
