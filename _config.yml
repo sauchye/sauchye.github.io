@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://sauchye.github.io/
+url: https://sauchye.github.io
 date_format: "ordinal"
 title: sauchye
 subtitle: "求知、探索"
