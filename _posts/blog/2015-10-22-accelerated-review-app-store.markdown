@@ -2,11 +2,14 @@
 layout: post
 title: AppStore申请加速审核那些事
 categories: app-review
-description: 如何向Apple申请加速审核自己的App
+description: AppStore申请加速审核那些事
 keywords: app
 ---
 
+
+
 ###前言
+
 国庆节转眼间就过去了，想来七天的小长假也是如此的速度；想想国庆前，想来大家一般会比较忙的状态，毕竟都想在节前*Release*产品，尤其是能够快速审核上架，想想都是如此激动啊。其实我们也是，节前*Release*产品，争取快速审核完成，用户在App Store更新、下载。
 ###小插曲
 然而节后上班，App审核通过，想来是极好的，其实不然，毕竟用户体验出了八阿哥，这不有得忙了，忙是应该的，如何打造一流产品，一直是心中所追求和向往的，所以我选择加速审核我们的App(*针对已上架的App*)，接下来请看->Next

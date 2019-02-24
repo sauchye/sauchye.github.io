@@ -3,7 +3,7 @@ layout: post
 title: 帮助开发者体验App
 categories: test
 description: 通过fir.im获取UDID，hoc测试体验App
-keywords: test、app
+keywords: test, app
 ---
 
 
