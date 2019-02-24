@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AppStore申请加速审核那些事
+title: 如何处理AppStore申请加速审核
 categories: app-review
 description: AppStore申请加速审核那些事
 keywords: app
