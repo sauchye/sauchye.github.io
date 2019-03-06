@@ -4,7 +4,7 @@
 baseurl:
 url: https://sauchye.github.io
 date_format: "ordinal"
-title: SAUCHYE
+title: Sauchye
 subtitle: "Pain is inevitable Suffering is optional"
 description: "Sauchye's Blog"
 keywords: sauchye
@@ -18,8 +18,8 @@ side_bar_repo_limit: 5
 author: Sauchye
 organization: 
 organization_url: 
-github_username: SAUCHYE
-location: Shenzhen, China
+github_username: Sauchye
+location: Shenzhen
 email: sauchye@qq.com
 
 # ---------------- #
