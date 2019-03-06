@@ -4,8 +4,8 @@
 baseurl:
 url: https://sauchye.github.io
 date_format: "ordinal"
-title: sauchye
-subtitle: "求知、探索"
+title: SAUCHYE
+subtitle: "Pain is inevitable Suffering is optional"
 description: "Sauchye's Blog"
 keywords: sauchye
 timezone: Asia/Shanghai
@@ -18,7 +18,7 @@ side_bar_repo_limit: 5
 author: Sauchye
 organization: 
 organization_url: 
-github_username: sauchye
+github_username: SAUCHYE
 location: Shenzhen, China
 email: sauchye@qq.com
 
@@ -44,7 +44,7 @@ navs:
 
   -
     href: /links/
-    label: 友链
+    label: 大佬们
 
   -
     href: /about/
